@@ -1,7 +1,6 @@
-const numbers = null;
-const value = null;
 function filterArray(numbers, value) {
     let newArray = [];
+    let i = 0;
     for (i = 0; i < numbers.length; i += 1) {
         if (numbers.includes(numbers[i]) && numbers[i] > value) {
             newArray.push(numbers[i]);
